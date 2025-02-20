@@ -1,6 +1,6 @@
 {
   "name": "ui-style-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple React component library using Next.js and TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
