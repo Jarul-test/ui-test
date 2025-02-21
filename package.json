@@ -1,6 +1,6 @@
 {
   "name": "ui-style-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A UI component library with TailwindCSS",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -49,5 +49,8 @@
   "bugs": {
     "url": "https://github.com/Jarul-test/ui-test/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

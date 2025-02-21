@@ -1,6 +1,11 @@
 ## Introduction
 ui-style-lib is a package for UI components which is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app). Whether you're building a single-page application, a portfolio site, or a complex web application, ui-style-lib provides you with components which are easy-to-use in your applcation.
 
+# UI Style Lib
+
+[![npm version](https://img.shields.io/npm/v/ui-style-lib)](https://www.npmjs.com/package/ui-style-lib)
+[![npm downloads](https://img.shields.io/npm/dt/ui-style-lib)](https://www.npmjs.com/package/ui-style-lib)
+
 ## Install
 
 ```bash
@@ -9,6 +14,12 @@ npm install ui-style-lib
 yarn add ui-style-lib
 ```
 
+## Usage
+```tsx
+import { Button } from "ui-style-lib";
+
+<Button label="Click me" onClick={() => alert("Clicked!")} />;
+```
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
