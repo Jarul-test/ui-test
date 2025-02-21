@@ -1,17 +1,16 @@
 {
   "name": "ui-style-lib",
-  "version": "1.0.2",
-  "description": "A simple React component library using Next.js and TypeScript",
+  "version": "1.0.3",
+  "description": "A UI component library with TailwindCSS",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
-    "build:js": "tsup",
-    "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --minify",
-    "build": "npm run build:js && npm run build:css",
+    "build": "tsup",
     "lint": "next lint"
   },
   "peerDependencies": {
@@ -41,5 +40,14 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "esbuild-style-plugin": "^1.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jarul-test/ui-test.git"
+  },
+  "homepage": "https://github.com/Jarul-test/ui-test#readme",
+  "bugs": {
+    "url": "https://github.com/Jarul-test/ui-test/issues"
+  },
+  "license": "MIT"
 }
